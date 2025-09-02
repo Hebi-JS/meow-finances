@@ -1,6 +1,6 @@
 {
   "svelte.enable-ts-plugin": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "[yaml]": {
     "editor.tabSize": 4
   },
