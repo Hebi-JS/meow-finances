@@ -1,15 +1,1 @@
 @import "tailwindcss";
-
-/* Temporary styles */
-body {
-    background: #333;
-    color: #DDD;
-}
-button {
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    background: #555;
-}
-input {
-    outline: 1px solid #DDD;
-}
