@@ -8,7 +8,7 @@
     const users: Users = data.users
 </script>
 
-<div>
+<div class="h-svh">
     <header>
         <h1>Meow Finances</h1>
 
