@@ -1,5 +1,12 @@
 <script lang="ts"></script>
 
+<a href="/account" tabindex="-1">
+    <button class="flex flex-col justify-center items-center fixed top-8 left-8 w-20 h-20 rounded-full text-sm transition-all hover:bg-gray-800 focus:outline-2 focus:outline-gray-600">
+        <img src="#" alt="Arrow Icon" />
+        <span>Back</span>
+    </button>
+</a>
+
 <form class="flex flex-col justify-center gap-4 px-8 h-svh text-2xl" action="POST">
     <div class="flex justify-between items-center">
         <label class="min-w-44" for="email">Email</label>
