@@ -8,12 +8,12 @@
     const users: Users = data.users
 </script>
 
-<div class="h-svh">
+<div class="h-svh p-4">
     <header class="flex justify-between items-center">
-        <h1 class="text-3xl">Meow Finances</h1>
+        <h1 class="text-3xl font-bold">Meow Finances</h1>
 
         <a href="/app/settings" tabindex="-1">
-            <button class="flex flex-col justify-center items-center w-20 h-20 rounded-full text-sm transition-all hover:bg-gray-800 focus:outline-2 focus:outline-gray-600">
+            <button class="flex flex-col justify-center items-center w-16 h-16 rounded-full text-sm transition-all hover:bg-gray-800 focus:outline-2 focus:outline-gray-600">
                 <img src="#" alt="Cog Icon" />
                 <span>Settings</span>
             </button>
