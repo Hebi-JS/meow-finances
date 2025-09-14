@@ -1,0 +1,1 @@
+<div class="h-svh bg-[url('$lib/assets/page-content-if-i-had-any.jpg')] bg-no-repeat bg-center bg-contain"></div>

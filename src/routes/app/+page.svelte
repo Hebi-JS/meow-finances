@@ -9,13 +9,15 @@
 </script>
 
 <div class="h-svh">
-    <header>
-        <h1>Meow Finances</h1>
+    <header class="flex justify-between items-center">
+        <h1 class="text-3xl">Meow Finances</h1>
 
-        <button>
-            <img src="#" alt="Cog Icon" />
-            <span>Settings</span>
-        </button>
+        <a href="/app/settings" tabindex="-1">
+            <button class="flex flex-col justify-center items-center w-20 h-20 rounded-full text-sm transition-all hover:bg-gray-800 focus:outline-2 focus:outline-gray-600">
+                <img src="#" alt="Cog Icon" />
+                <span>Settings</span>
+            </button>
+        </a>
     </header>
 
     <main>
