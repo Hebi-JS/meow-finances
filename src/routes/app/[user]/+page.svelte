@@ -40,8 +40,8 @@
             
             <button class="flex justify-center py-2 rounded-lg bg-gray-700 hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">Open</button>
 
-            <button class="flex justify-center col-span-2 py-2 rounded-lg bg-green-700 hover:outline-2 hover:outline-green-600 focus:outline-2 focus:outline-green-400">
-                <img src="#" alt="Plus Icon" />
+            <button class="flex justify-center items-center gap-2 col-span-2 py-2 rounded-lg bg-green-700 hover:outline-2 hover:outline-green-600 focus:outline-2 focus:outline-green-400">
+                <img class="w-4 h-4" src="/icons/plus-icon.svg" alt="Plus Icon" />
                 <span>New</span>
             </button>
         </section>
