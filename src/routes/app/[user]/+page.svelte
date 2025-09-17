@@ -12,7 +12,7 @@
     <header class="flex justify-between items-center pb-8 shadow-gray-800">
         <h1 class="text-3xl tracking-wide font-bold">Meow Finances</h1>
 
-        <a href="/app/settings" tabindex="-1">
+        <a href="/settings" tabindex="-1">
             <button class="rounded-full w-16 h-16 text-sm hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
                 <img src="#" alt="Cog Icon" />
                 <span>Settings</span>
