@@ -13,8 +13,8 @@
         <h1 class="text-3xl tracking-wide font-bold">Meow Finances</h1>
 
         <a href="/settings" tabindex="-1">
-            <button class="rounded-full w-16 h-16 text-sm hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
-                <img src="#" alt="Cog Icon" />
+            <button class="flex flex-col justify-center items-center rounded-full w-16 h-16 text-sm hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
+                <img class="w-8 h-8" src="/icons/cog-icon.svg" alt="Cog Icon" />
                 <span>Settings</span>
             </button>
         </a>
@@ -23,7 +23,7 @@
     <main class="contents">
         <section class="flex flex-col-reverse gap-4 rounded-lg p-2 overflow-y-scroll focus:outline-2 focus:outline-gray-400">
             {#each users as user}
-                <a href="/app/{user.firstname}-{user.lastname}" tabindex="-1">
+                <a href="/app/{user.firstname.toLocaleLowerCase()}-{user.lastname.toLocaleLowerCase()}" tabindex="-1">
                     <button class="flex flex-col justify-center rounded-xl py-2 w-full hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
                         <h2>{user.firstname} {user.lastname}</h2>
                         <p class="text-red-400">{user.balance}</p>
@@ -33,8 +33,8 @@
         </section>
 
         <section class="grid grid-cols-2 gap-2 pt-6 px-2 pb-2">
-            <button class="flex justify-center py-2 rounded-lg bg-gray-700 hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
-                <img src="#" alt="Pencil Icon" />
+            <button class="flex justify-center items-center gap-2 py-2 rounded-lg bg-gray-700 hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
+                <img class="w-4 h-4" src="/icons/pencil-icon.svg" alt="Pencil Icon" />
                 <span>Edit</span>
             </button>
             
