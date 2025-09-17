@@ -1,11 +1,11 @@
 <script lang="ts">
-    import type { Users } from "$lib/types/users";
-    import type { PageProps } from "../$types";
+    import type { PaymentAccounts } from "$lib/types/paymentAccounts";
+    import type { PageProps } from "./$types";
 
     let { data }: PageProps = $props()
 
     // Workaround for having at least some type safety 
-    const users: Users = data.users
+    const paymentAccounts: PaymentAccounts = data.paymentAccounts
 </script>
 
 <div class="grid grid-rows-[auto_minmax(0,1fr)_auto] h-svh p-4">
@@ -22,11 +22,11 @@
 
     <main class="contents">
         <section class="flex flex-col-reverse gap-4 rounded-lg p-2 overflow-y-scroll focus:outline-2 focus:outline-gray-400">
-            {#each users as user}
-                <a href="/app/{user.firstname.toLocaleLowerCase()}-{user.lastname.toLocaleLowerCase()}/transactions" tabindex="-1">
+            {#each paymentAccounts as paymentAccount}
+                <a href="/app/{paymentAccount.name.toLowerCase()}" tabindex="-1">
                     <button class="flex flex-col justify-center rounded-xl py-2 w-full hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
-                        <h2>{user.firstname} {user.lastname}</h2>
-                        <p class="text-red-400">{user.balance}</p>
+                        <h2>{paymentAccount.name}</h2>
+                        <p class="text-red-400">{paymentAccount.balance}</p>
                     </button>
                 </a>
             {/each}

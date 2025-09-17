@@ -1,0 +1,12 @@
+{
+    "userAccounts": [
+        {
+            "username": "HebiJS",
+            "password": "lolSomething1"
+        },
+        {
+            "username": "NotHebiJS",
+            "password": "lolSomething2"
+        }
+    ]
+}
