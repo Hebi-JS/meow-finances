@@ -43,6 +43,160 @@
                     "type": "Transfer"
                 }
             ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
+        },
+        {
+            "firstname": "Scharfzahn",
+            "lastname": "Huhn",
+            "balance": "-420,69€",
+
+            "transactions": [
+                {
+                    "date": "22.05.2025",
+                    "status": "Paid",
+                    "description": "Big ass packages of noodles",
+                    "amount": "19,99€",
+                    "type": "Transfer"
+                },
+                {
+                    "date": "23.05.2025",
+                    "status": "Paid",
+                    "description": "Chicken",
+                    "amount": "50,00€",
+                    "type": "Transfer"
+                }
+            ]
         }
     ]
 }

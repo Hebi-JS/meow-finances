@@ -1,4 +1,6 @@
-<script lang="ts"></script>
+<script lang="ts">
+    
+</script>
 
 <a href="/account" tabindex="-1">
     <button class="flex flex-col justify-center items-center fixed top-8 left-8 w-16 h-16 rounded-full text-sm hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">

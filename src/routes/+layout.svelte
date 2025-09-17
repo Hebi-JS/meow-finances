@@ -4,6 +4,6 @@
     import "../app.css";
 </script>
 
-<div class="bg-gray-900 text-gray-100">
+<div class="bg-gray-900 text-gray-100 text-lg tracking-tight">
     {@render children()}
 </div>
