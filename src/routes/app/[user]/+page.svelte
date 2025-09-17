@@ -25,7 +25,7 @@
             {#each users as user}
                 <a href="/app/{user.firstname}-{user.lastname}" tabindex="-1">
                     <button class="flex flex-col justify-center rounded-xl py-2 w-full hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
-                        <h2 class="font-bold">{user.firstname} {user.lastname}</h2>
+                        <h2>{user.firstname} {user.lastname}</h2>
                         <p class="text-red-400">{user.balance}</p>
                     </button>
                 </a>
