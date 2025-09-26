@@ -23,10 +23,10 @@
     <main class="contents">
         <section class="flex flex-col-reverse gap-4 rounded-lg p-2 overflow-y-scroll focus:outline-2 focus:outline-gray-400">
             {#each paymentAccounts as paymentAccount}
-                <a href="/app/{paymentAccount.name.toLowerCase()}" tabindex="-1">
+                <a href="/app/account1/{paymentAccount.name.toLowerCase()}" tabindex="-1">
                     <button class="flex flex-col justify-center rounded-xl py-2 w-full hover:outline-2 hover:outline-gray-600 focus:outline-2 focus:outline-gray-400">
                         <h2>{paymentAccount.name}</h2>
-                        <p class="text-red-400">{paymentAccount.balance}</p>
+                        <p class="text-red-600">{paymentAccount.balance}</p>
                     </button>
                 </a>
             {/each}
